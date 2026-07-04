@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bilqees</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="logo">🕌 Bilqees</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quran.html">Quran</a></li>
+            <li><a href="hadith.html">Hadith</a></li>
+            <li><a href="learning.html">Learn Islam</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="page-header">
+    <h1>📞 Contact Us</h1>
+    <p>We'd love to hear from you!</p>
+</header>
+
+<main class="container">
+
+    <section class="content-section">
+        <div class="contact-grid">
+            <div class="contact-form">
+                <h2>Send us a Message</h2>
+                <form id="contactForm" class="form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                
+                <div class="info-item">
+                    <h3>📧 Email</h3>
+                    <p>contact@bilqees.com</p>
+                </div>
+
+                <div class="info-item">
+                    <h3>📱 Phone</h3>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+
+                <div class="info-item">
+                    <h3>📍 Location</h3>
+                    <p>Dedicated to serving the global Muslim community</p>
+                </div>
+
+                <div class="info-item">
+                    <h3>🕐 Response Time</h3>
+                    <p>We aim to respond within 24-48 hours during business days.</p>
+                </div>
+
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <p>
+                        <a href="#" class="social-link">Facebook</a> | 
+                        <a href="#" class="social-link">Twitter</a> | 
+                        <a href="#" class="social-link">Instagram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <h3>What is the mission of Bilqees?</h3>
+            <p>Our mission is to provide authentic Islamic knowledge and resources to help Muslims strengthen their connection with Allah and deepen their understanding of the Quran, Hadith, and Islamic teachings.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is the content on Bilqees accurate?</h3>
+            <p>Yes, all content is compiled from authentic Islamic sources including the Quran, Sahih Hadith collections, and works of respected Islamic scholars. We prioritize accuracy and authenticity in all our materials.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I contribute content to Bilqees?</h3>
+            <p>We welcome qualified contributions. Please contact us with details about your proposed content, expertise, and qualifications. All submissions will be reviewed for authenticity and alignment with our values.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is Bilqees free to use?</h3>
+            <p>Yes, all content on Bilqees is free and available to everyone. We believe Islamic knowledge should be accessible to all believers without any financial barriers.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How often is content updated?</h3>
+            <p>We regularly add new content including daily verses, hadith, learning resources, and articles. New content is typically added several times per week.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Do you have an app for mobile devices?</h3>
+            <p>Our website is fully responsive and works on all devices. We're currently developing dedicated mobile apps for iOS and Android platforms.</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Bilqees - Made with intention to bring hearts closer to Allah</p>
+    <p><em>"Indeed, in the remembrance of Allah do hearts find rest."</em> - Quran 13:28</p>
+</footer>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you for your message! We will respond soon. May Allah bless you!');
+        this.reset();
+    });
+</script>
+
+</body>
+</html>
